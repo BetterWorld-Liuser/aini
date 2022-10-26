@@ -1,0 +1,38 @@
+body {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.head {
+    margin: 20px 5%;
+}
+
+.sentence {
+    display: block;
+    margin: 0;
+
+    opacity: 0.8;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.name {
+    color: #ff6b81;
+    font-weight: bolder;
+}
+
+.end {
+    position: relative;
+    margin: 20px 5%;
+    z-index: 10;
+}
+
+.first-together {
+    position: absolute;
+    width: 50%;
+    transform: rotate(20deg) translateY(-250px) translateX(150px);
+    opacity: 0.4;
+    border-radius: 10px;
+}
